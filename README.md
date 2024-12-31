@@ -1,4 +1,3 @@
-# AzureRBAC_Config
 # Azure Role-Based Access Control (RBAC) & User Permissions Configuration
 
 ## Project Overview
@@ -22,4 +21,16 @@ In this project, I configured and tested different **Role-Based Access Control (
      - Assigned **Contributor** permissions on the resource group `RG-Cyber-Lab` to `rgcontributordave` and observed their ability to manage resources within the group.
      - Logged in as `rgcontributordave` to confirm that the **Contributor** role allowed them to create, modify, and delete resources in the specified group, while restricting access to other resources outside of that group.
 
-## Key Learn
+## Key Learnings
+- **Understanding Azure RBAC**: This project reinforced my understanding of how Azure uses **role-based access control** to manage permissions at different scopes (tenant, subscription, and resource group levels).
+- **Security Best Practices**: I learned how important it is to assign users the **least privileged access** based on their roles to minimize security risks in cloud environments.
+- **Practical Experience**: This hands-on task helped me practice assigning roles and testing user access, ensuring that users only have the permissions they need.
+
+## Technologies Used
+- **Azure Active Directory (AAD)**
+- **Azure Role-Based Access Control (RBAC)**
+- **Azure Resource Manager (ARM)**
+
+## Conclusion
+This exercise helped me gain practical experience in managing **role assignments** and **permissions** in Azure. By configuring these different roles, I learned how to carefully manage access at various levels, ensuring secure and efficient use of resources in an Azure environment. These skills are critical for roles involving **cloud governance**, **security**, and **resource management**.
+
